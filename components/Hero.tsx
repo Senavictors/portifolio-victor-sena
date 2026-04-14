@@ -8,6 +8,7 @@ import {
 } from "@/components/icons";
 
 type HeroProps = {
+  avatarSrc: string;
   email: string;
   github: string;
   linkedin: string;
@@ -20,7 +21,12 @@ const navItems = [
   { href: "#contato", label: "Contato" },
 ];
 
-export default function Hero({ email, github, linkedin }: HeroProps) {
+export default function Hero({
+  avatarSrc,
+  email,
+  github,
+  linkedin,
+}: HeroProps) {
   return (
     <>
       <header className="flex items-center justify-between px-8 pb-8 pt-8 lg:px-12">
@@ -132,7 +138,7 @@ export default function Hero({ email, github, linkedin }: HeroProps) {
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 50vw"
-            src="/avatar.png"
+            src={avatarSrc}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/5 via-transparent to-transparent" />
 

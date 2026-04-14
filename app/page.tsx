@@ -4,6 +4,11 @@ import Hero from "@/components/Hero";
 import Projects, { type Project } from "@/components/Projects";
 import Stack, { type StackGroup } from "@/components/Stack";
 
+const basePath =
+  process.env.GITHUB_PAGES === "true" ? "/portifolio-victor-sena" : "";
+
+const withBasePath = (path: string) => `${basePath}${path}`;
+
 const contact = {
   email: "victorsena760@gmail.com",
   github: "https://github.com/Senavictors",
@@ -40,7 +45,7 @@ const projects: Project[] = [
       "Multi-tenant",
     ],
     stack: ["Laravel", "MySQL", "Redis", "Docker"],
-    image: "/projects/crm-metas.svg",
+    image: withBasePath("/projects/crm-metas.svg"),
     glow: "linear-gradient(135deg, rgba(59,130,246,0.95), rgba(14,165,233,0.9))",
     frameClassName:
       "rounded-[2rem] border-8 border-blue-600 bg-gray-900",
@@ -56,7 +61,7 @@ const projects: Project[] = [
       "Crescimento calculado",
     ],
     stack: ["Laravel", "Jobs", "APIs externas"],
-    image: "/projects/integracao-sap.svg",
+    image: withBasePath("/projects/integracao-sap.svg"),
     glow: "linear-gradient(135deg, rgba(249,115,22,0.95), rgba(245,158,11,0.9))",
     frameClassName:
       "rounded-[2.5rem] border-8 border-orange-600 bg-gray-100",
@@ -72,7 +77,7 @@ const projects: Project[] = [
       "Redis em operação",
     ],
     stack: ["Laravel", "Queues", "Redis"],
-    image: "/projects/automacao-processos.svg",
+    image: withBasePath("/projects/automacao-processos.svg"),
     glow: "linear-gradient(135deg, rgba(34,197,94,0.95), rgba(16,185,129,0.9))",
     frameClassName:
       "rounded-[1.5rem] border-4 border-emerald-500 bg-[#07111f]",
@@ -114,6 +119,7 @@ export default function Home() {
         id="top"
       >
         <Hero
+          avatarSrc={withBasePath("/avatar.png")}
           email={contact.email}
           github={contact.github}
           linkedin={contact.linkedin}
