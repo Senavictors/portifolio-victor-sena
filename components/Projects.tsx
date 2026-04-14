@@ -10,6 +10,7 @@ export type Project = {
   image: string;
   glow: string;
   frameClassName: string;
+  repositoryUrl?: string;
 };
 
 type ProjectsProps = {
@@ -102,12 +103,16 @@ export default function Projects({ projects }: ProjectsProps) {
                   ))}
                 </div>
 
-                <a
-                  className="button-dark inline-flex items-center gap-3 rounded-full bg-black px-8 py-4 text-xs font-semibold uppercase tracking-widest shadow-xl shadow-gray-200 transition-all hover:scale-105 hover:bg-gray-800"
-                  href="#contato"
-                >
-                  Falar sobre esse case <ArrowUpRightIcon className="h-4 w-4" />
-                </a>
+                {project.repositoryUrl ? (
+                  <a
+                    className="button-dark inline-flex items-center gap-3 rounded-full bg-black px-8 py-4 text-xs font-semibold uppercase tracking-widest text-white shadow-xl shadow-gray-200 transition-all hover:scale-105 hover:bg-gray-800"
+                    href={project.repositoryUrl}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Acessar Repositório <ArrowUpRightIcon className="h-4 w-4" />
+                  </a>
+                ) : null}
               </div>
             </article>
           );

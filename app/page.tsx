@@ -35,20 +35,21 @@ const focusAreas: FocusArea[] = [
 
 const projects: Project[] = [
   {
-    eyebrow: "Performance comercial",
-    title: "CRM de Metas",
+    eyebrow: "CRM para relojoaria",
+    title: "Watch CRM",
     description:
-      "Sistema multi-tenant para gestão de metas comerciais com cálculo por intervalo, métricas dinâmicas e regras configuráveis por operação. O foco esteve em consolidar indicadores confiáveis para diferentes contextos de negócio sem perder flexibilidade.",
+      "CRM full stack para centralizar catálogo, pedidos, envios, pós-venda e metas comerciais de uma operação de relojoaria. A solução unificou regras de acesso, ownership por usuário e rastreabilidade operacional em uma única plataforma.",
     highlights: [
-      "Cálculo por intervalo",
-      "Métricas dinâmicas",
-      "Multi-tenant",
+      "Pedidos multi-itens",
+      "Pós-venda rastreável",
+      "Metas em tempo real",
     ],
-    stack: ["Laravel", "MySQL", "Redis", "Docker"],
-    image: withBasePath("/projects/crm-metas.svg"),
-    glow: "linear-gradient(135deg, rgba(59,130,246,0.95), rgba(14,165,233,0.9))",
+    stack: ["Laravel 12", "Next.js 16", "MySQL", "TypeScript", "Docker"],
+    image: withBasePath("/projects/watch-crm.png"),
+    glow: "linear-gradient(135deg, rgba(15,23,42,0.92), rgba(180,83,9,0.85))",
     frameClassName:
-      "rounded-[2rem] border-8 border-blue-600 bg-gray-900",
+      "rounded-[2rem] border border-stone-200 bg-white",
+    repositoryUrl: "https://github.com/Senavictors/watch-crm",
   },
   {
     eyebrow: "Dados e faturamento",
