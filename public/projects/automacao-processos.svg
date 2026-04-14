@@ -1,0 +1,46 @@
+<svg width="1440" height="1080" viewBox="0 0 1440 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="auto-bg" x1="122" y1="92" x2="1308" y2="1002" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071B17" />
+      <stop offset="1" stop-color="#07111F" />
+    </linearGradient>
+    <linearGradient id="auto-accent" x1="226" y1="420" x2="1126" y2="822" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E" />
+      <stop offset="1" stop-color="#14B8A6" />
+    </linearGradient>
+    <filter id="auto-blur" x="0" y="0" width="1440" height="1080" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+  </defs>
+  <rect width="1440" height="1080" rx="72" fill="url(#auto-bg)" />
+  <g filter="url(#auto-blur)" opacity="0.32">
+    <circle cx="280" cy="248" r="152" fill="#16A34A" />
+    <circle cx="1186" cy="796" r="180" fill="#14B8A6" />
+  </g>
+  <rect x="116" y="124" width="1208" height="832" rx="52" fill="#08131F" fill-opacity="0.88" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <text x="180" y="212" fill="#99F6E4" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8">AUTOMACAO DE PROCESSOS</text>
+  <text x="180" y="256" fill="#ECFDF5" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="700">Filas e execução assíncrona</text>
+  <text x="180" y="308" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="28">Menos tarefas manuais, mais previsibilidade operacional.</text>
+  <rect x="180" y="386" width="1060" height="456" rx="40" fill="#0B1725" stroke="white" stroke-opacity="0.08" />
+  <rect x="230" y="446" width="252" height="316" rx="28" fill="#101E2E" />
+  <rect x="524" y="446" width="252" height="316" rx="28" fill="#101E2E" />
+  <rect x="818" y="446" width="252" height="316" rx="28" fill="#101E2E" />
+  <text x="286" y="504" fill="#99F6E4" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">QUEUE</text>
+  <text x="560" y="504" fill="#99F6E4" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">WORKERS</text>
+  <text x="876" y="504" fill="#99F6E4" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">RESULTADO</text>
+  <rect x="270" y="548" width="176" height="34" rx="17" fill="#18354D" />
+  <rect x="270" y="602" width="176" height="34" rx="17" fill="#18354D" />
+  <rect x="270" y="656" width="176" height="34" rx="17" fill="#18354D" />
+  <path d="M482 620H514" stroke="#34D399" stroke-width="10" stroke-linecap="round" />
+  <path d="M776 620H808" stroke="#2DD4BF" stroke-width="10" stroke-linecap="round" />
+  <rect x="564" y="556" width="172" height="42" rx="21" fill="url(#auto-accent)" />
+  <rect x="564" y="620" width="172" height="42" rx="21" fill="url(#auto-accent)" />
+  <rect x="564" y="684" width="172" height="42" rx="21" fill="url(#auto-accent)" />
+  <circle cx="908" cy="578" r="16" fill="#A7F3D0" />
+  <circle cx="908" cy="642" r="16" fill="#A7F3D0" />
+  <circle cx="908" cy="706" r="16" fill="#A7F3D0" />
+  <rect x="1100" y="386" width="140" height="456" rx="32" fill="#08101A" stroke="white" stroke-opacity="0.08" />
+  <text x="1140" y="454" fill="#99F6E4" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">STATUS</text>
+  <text x="1134" y="608" fill="#ECFDF5" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="700">98%</text>
+  <text x="1130" y="654" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="24">tarefas ok</text>
+</svg>

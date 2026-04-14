@@ -1,0 +1,48 @@
+<svg width="1440" height="1080" viewBox="0 0 1440 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sap-bg" x1="128" y1="92" x2="1288" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A1508" />
+      <stop offset="1" stop-color="#120C08" />
+    </linearGradient>
+    <linearGradient id="sap-accent" x1="198" y1="462" x2="920" y2="462" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316" />
+      <stop offset="1" stop-color="#FACC15" />
+    </linearGradient>
+    <filter id="sap-blur" x="0" y="0" width="1440" height="1080" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="56" />
+    </filter>
+  </defs>
+  <rect width="1440" height="1080" rx="72" fill="url(#sap-bg)" />
+  <g filter="url(#sap-blur)" opacity="0.3">
+    <circle cx="1188" cy="236" r="158" fill="#F97316" />
+    <circle cx="302" cy="858" r="168" fill="#FACC15" />
+  </g>
+  <rect x="116" y="124" width="1208" height="832" rx="52" fill="#14100D" fill-opacity="0.88" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <text x="180" y="212" fill="#C7A58D" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8">INTEGRACAO SAP</text>
+  <text x="180" y="256" fill="#FFF7ED" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="700">Pipeline de faturamento</text>
+  <text x="180" y="308" fill="#C7A58D" font-family="Inter, Arial, sans-serif" font-size="28">Ingestão mensal, normalização e cálculo de crescimento.</text>
+  <rect x="180" y="390" width="700" height="180" rx="36" fill="#1A1410" stroke="white" stroke-opacity="0.08" />
+  <circle cx="246" cy="480" r="28" fill="#FED7AA" />
+  <circle cx="470" cy="480" r="28" fill="#FDBA74" />
+  <circle cx="694" cy="480" r="28" fill="#FACC15" />
+  <path d="M274 480H442" stroke="url(#sap-accent)" stroke-width="10" stroke-linecap="round" />
+  <path d="M498 480H666" stroke="url(#sap-accent)" stroke-width="10" stroke-linecap="round" />
+  <path d="M722 480H816" stroke="url(#sap-accent)" stroke-width="10" stroke-linecap="round" />
+  <text x="214" y="430" fill="#FFF7ED" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">SAP</text>
+  <text x="424" y="430" fill="#FFF7ED" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Jobs</text>
+  <text x="630" y="430" fill="#FFF7ED" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Indicadores</text>
+  <rect x="914" y="390" width="320" height="360" rx="36" fill="#1A1410" stroke="white" stroke-opacity="0.08" />
+  <text x="970" y="454" fill="#C7A58D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">CRESCIMENTO</text>
+  <path d="M980 668L1040 620L1098 638L1168 556" stroke="#FDBA74" stroke-width="10" stroke-linecap="round" />
+  <circle cx="1040" cy="620" r="12" fill="#FFF7ED" />
+  <circle cx="1098" cy="638" r="12" fill="#FFF7ED" />
+  <circle cx="1168" cy="556" r="12" fill="#FFF7ED" />
+  <text x="970" y="724" fill="#FFF7ED" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="700">+12,4%</text>
+  <rect x="180" y="612" width="700" height="250" rx="36" fill="#1A1410" stroke="white" stroke-opacity="0.08" />
+  <text x="228" y="674" fill="#C7A58D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">LOTES PROCESSADOS</text>
+  <rect x="228" y="714" width="604" height="24" rx="12" fill="#2A201B" />
+  <rect x="228" y="714" width="520" height="24" rx="12" fill="url(#sap-accent)" />
+  <rect x="228" y="764" width="470" height="18" rx="9" fill="#3A2A22" />
+  <rect x="228" y="802" width="560" height="18" rx="9" fill="#3A2A22" />
+  <rect x="228" y="840" width="390" height="18" rx="9" fill="#3A2A22" />
+</svg>
