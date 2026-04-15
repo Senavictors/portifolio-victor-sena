@@ -52,20 +52,21 @@ const projects: Project[] = [
     repositoryUrl: "https://github.com/Senavictors/watch-crm",
   },
   {
-    eyebrow: "Dados e faturamento",
-    title: "Integração SAP",
+    eyebrow: "Finanças pessoais",
+    title: "Finance Controller",
     description:
-      "Pipeline de ingestão de dados de faturamento integrado ao SAP, responsável por processamento mensal, normalização das informações e cálculo de crescimento para leitura executiva. A solução priorizou confiabilidade do fluxo e rastreabilidade do processamento.",
+      "Sistema full stack de gestão financeira pessoal para centralizar contas, transações, recorrências e analytics em uma única aplicação. O projeto combina arquitetura em camadas, dashboard customizável e consistência transacional para apoiar controle e tomada de decisão.",
     highlights: [
-      "Ingestão mensal",
-      "APIs externas",
-      "Crescimento calculado",
+      "Dashboard customizável",
+      "Transferências atômicas",
+      "Recorrências idempotentes",
     ],
-    stack: ["Laravel", "Jobs", "APIs externas"],
-    image: withBasePath("/projects/integracao-sap.svg"),
-    glow: "linear-gradient(135deg, rgba(249,115,22,0.95), rgba(245,158,11,0.9))",
+    stack: ["Next.js 16", "TypeScript", "PostgreSQL", "Prisma 7", "Tailwind CSS"],
+    image: withBasePath("/projects/finance-controller.png"),
+    glow: "linear-gradient(135deg, rgba(16,185,129,0.92), rgba(20,184,166,0.88))",
     frameClassName:
-      "rounded-[2.5rem] border-8 border-orange-600 bg-gray-100",
+      "rounded-[2rem] border border-emerald-100 bg-white",
+    repositoryUrl: "https://github.com/Senavictors/Finance-Controller",
   },
   {
     eyebrow: "Eficiência operacional",

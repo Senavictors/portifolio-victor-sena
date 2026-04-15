@@ -4,6 +4,6 @@ Crie aqui um arquivo por projeto usando como base `docs/templates/project-case-t
 
 Exemplo de nome de arquivo:
 
-- `crm-de-metas.md`
-- `integracao-sap.md`
+- `watch-crm.md`
+- `finance-controller.md`
 - `automacao-de-processos.md`

@@ -59,8 +59,8 @@ docs/
   templates/
     project-case-template.md
   projects/
-    crm-de-metas.md
-    integracao-sap.md
+    watch-crm.md
+    finance-controller.md
     automacao-de-processos.md
 ```
 
