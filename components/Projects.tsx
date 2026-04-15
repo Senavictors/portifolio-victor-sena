@@ -10,6 +10,8 @@ export type Project = {
   image: string;
   glow: string;
   frameClassName: string;
+  imageClassName?: string;
+  imageInsetClassName?: string;
   repositoryUrl?: string;
 };
 
@@ -56,13 +58,21 @@ export default function Projects({ projects }: ProjectsProps) {
                 <div
                   className={`relative h-[88%] w-[90%] overflow-hidden shadow-2xl transition-transform duration-500 group-hover:scale-[1.02] ${project.frameClassName}`}
                 >
-                  <Image
-                    alt={`Preview do projeto ${project.title}`}
-                    className="h-full w-full object-cover"
-                    fill
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                    src={project.image}
-                  />
+                  <div
+                    className={`absolute ${
+                      project.imageInsetClassName ?? "inset-0"
+                    }`}
+                  >
+                    <Image
+                      alt={`Preview do projeto ${project.title}`}
+                      className={`h-full w-full ${
+                        project.imageClassName ?? "object-cover"
+                      }`}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 50vw"
+                      src={project.image}
+                    />
+                  </div>
                 </div>
               </div>
 

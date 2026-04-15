@@ -48,7 +48,9 @@ const projects: Project[] = [
     image: withBasePath("/projects/watch-crm.png"),
     glow: "linear-gradient(135deg, rgba(15,23,42,0.92), rgba(180,83,9,0.85))",
     frameClassName:
-      "rounded-[2rem] border border-stone-200 bg-white",
+      "rounded-[2rem] border border-stone-200 bg-[#F5F6FA]",
+    imageClassName: "object-contain object-center",
+    imageInsetClassName: "inset-3 md:inset-4",
     repositoryUrl: "https://github.com/Senavictors/watch-crm",
   },
   {
@@ -65,7 +67,9 @@ const projects: Project[] = [
     image: withBasePath("/projects/finance-controller.png"),
     glow: "linear-gradient(135deg, rgba(16,185,129,0.92), rgba(20,184,166,0.88))",
     frameClassName:
-      "rounded-[2rem] border border-emerald-100 bg-white",
+      "rounded-[2rem] border border-emerald-100 bg-[#F7FFFC]",
+    imageClassName: "object-contain object-center",
+    imageInsetClassName: "inset-3 md:inset-4",
     repositoryUrl: "https://github.com/Senavictors/Finance-Controller",
   },
   {
