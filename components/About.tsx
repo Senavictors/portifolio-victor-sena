@@ -19,16 +19,18 @@ export default function About({ areas }: AboutProps) {
             Posicionamento
           </p>
           <h2 className="mb-8 text-3xl font-medium leading-[1.15] tracking-tight text-white md:text-4xl lg:text-5xl">
-            Desenvolvedor backend com atuação forte em{" "}
-            <span className="text-blue-400">CRM, APIs REST</span>, arquitetura
-            de serviços e automação de processos para{" "}
+            Desenvolvedor full stack com foco em{" "}
+            <span className="text-blue-400">CRM, APIs REST</span>, integrações
+            e automação de processos para{" "}
             <span className="text-blue-400">operações reais</span>.
           </h2>
           <p className="mb-16 max-w-4xl text-lg font-normal leading-relaxed text-gray-400 md:text-2xl">
             Sou formado em Análise e Desenvolvimento de Sistemas e atuo na
-            manutenção e evolução de um sistema de CRM na Allcom Telecom.
-            Trabalho da definição de regras de negócio até a persistência e
-            integridade dos dados, buscando performance, escalabilidade,
+            evolução de uma plataforma CRM interna na Allcom Telecom,
+            desenvolvendo módulos de fluxo comercial, aprovações, contratos,
+            pedidos e relatórios. Trabalho da interface administrativa e das
+            integrações até regras de negócio, permissões, persistência e
+            rotinas assíncronas, buscando produtividade, rastreabilidade,
             segurança e código sustentável.
           </p>
 

@@ -19,17 +19,17 @@ const focusAreas: FocusArea[] = [
   {
     title: "CRM & Operação",
     description:
-      "Atuo na evolução de um sistema de CRM com foco em regras de negócio, estabilidade operacional e crescimento sustentável do produto.",
+      "Atuo na evolução de uma plataforma CRM interna com foco em fluxos comerciais, aprovações, contratos, pedidos e estabilidade operacional.",
   },
   {
     title: "APIs & Automações",
     description:
-      "Construo APIs REST, webhooks e integrações entre sistemas para automatizar fluxos e reduzir tarefas manuais com confiabilidade.",
+      "Construo APIs REST, integrações com serviços externos e rotinas assíncronas para reduzir retrabalho e sustentar processos internos com confiabilidade.",
   },
   {
     title: "Arquitetura & Qualidade",
     description:
-      "Aplico SOLID, Clean Code, separação de responsabilidades e arquitetura orientada a serviços para manter o backend claro e evolutivo.",
+      "Trabalho do frontend ao backend com autenticação, permissões, persistência e responsabilidades bem definidas para manter o produto claro, seguro e evolutivo.",
   },
 ];
 

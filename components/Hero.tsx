@@ -84,7 +84,7 @@ export default function Hero({
       >
         <div className="relative z-10 flex flex-col justify-center px-8 pb-12 pt-4 lg:px-12 xl:px-20">
           <p className="mb-6 text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gray-400">
-            Backend Developer na Allcom Telecom • CRM • APIs • Integrações
+            Allcom Telecom • CRM interno • APIs • Operação
           </p>
 
           <div className="relative mb-6">
@@ -102,16 +102,17 @@ export default function Hero({
 
           <div className="mt-8 max-w-xl">
             <h2 className="mb-4 text-xl font-medium leading-snug tracking-tight text-gray-900">
-              Desenvolvedor backend na{" "}
-              <span className="text-blue-600">Allcom Telecom</span>, atuando na
-              evolução de um CRM com APIs REST, integrações entre sistemas e
-              automações de processos.
+              Na <span className="text-blue-600">Allcom Telecom</span>, atuo na
+              evolução de uma plataforma CRM interna, desenvolvendo interfaces
+              administrativas, APIs, integrações e automações para fluxos
+              comerciais e operacionais.
             </h2>
             <p className="mb-8 text-base font-normal leading-relaxed text-gray-500">
-              Sou formado em Análise e Desenvolvimento de Sistemas e trabalho em
-              todo o ciclo do backend: regra de negócio, arquitetura de APIs,
-              persistência e integridade dos dados, com foco em performance,
-              escalabilidade, segurança e código limpo.
+              Sou formado em Análise e Desenvolvimento de Sistemas e atuo de
+              forma full stack com foco em backend, trabalhando em regras de
+              negócio, autenticação, permissões, persistência, filas e
+              sustentação técnica da aplicação, sempre com atenção a
+              confiabilidade, escalabilidade e segurança da informação.
             </p>
 
             <div className="flex flex-wrap items-center gap-4">
