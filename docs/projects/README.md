@@ -6,4 +6,3 @@ Exemplo de nome de arquivo:
 
 - `watch-crm.md`
 - `finance-controller.md`
-- `automacao-de-processos.md`

@@ -1,8 +1,9 @@
 import About, { type FocusArea } from "@/components/About";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
-import Projects, { type Project } from "@/components/Projects";
+import Projects from "@/components/Projects";
 import Stack, { type StackGroup } from "@/components/Stack";
+import { projects } from "@/data/projects";
 
 const basePath =
   process.env.GITHUB_PAGES === "true" ? "/portifolio-victor-sena" : "";
@@ -30,63 +31,6 @@ const focusAreas: FocusArea[] = [
     title: "Arquitetura & Qualidade",
     description:
       "Trabalho do frontend ao backend com autenticação, permissões, persistência e responsabilidades bem definidas para manter o produto claro, seguro e evolutivo.",
-  },
-];
-
-const projects: Project[] = [
-  {
-    eyebrow: "CRM para relojoaria",
-    title: "Watch CRM",
-    description:
-      "CRM full stack para centralizar catálogo, pedidos, envios, pós-venda e metas comerciais de uma operação de relojoaria. A solução unificou regras de acesso, ownership por usuário e rastreabilidade operacional em uma única plataforma.",
-    highlights: [
-      "Pedidos multi-itens",
-      "Pós-venda rastreável",
-      "Metas em tempo real",
-    ],
-    stack: ["Laravel 12", "Next.js 16", "MySQL", "TypeScript", "Docker"],
-    image: withBasePath("/projects/watch-crm.png"),
-    glow: "linear-gradient(135deg, rgba(15,23,42,0.92), rgba(180,83,9,0.85))",
-    frameClassName:
-      "rounded-[2rem] border border-stone-200 bg-[#F5F6FA]",
-    imageClassName: "object-contain object-center",
-    imageInsetClassName: "inset-3 md:inset-4",
-    repositoryUrl: "https://github.com/Senavictors/watch-crm",
-  },
-  {
-    eyebrow: "Finanças pessoais",
-    title: "Finance Controller",
-    description:
-      "Sistema full stack de gestão financeira pessoal para centralizar contas, transações, recorrências e analytics em uma única aplicação. O projeto combina arquitetura em camadas, dashboard customizável e consistência transacional para apoiar controle e tomada de decisão.",
-    highlights: [
-      "Dashboard customizável",
-      "Transferências atômicas",
-      "Recorrências idempotentes",
-    ],
-    stack: ["Next.js 16", "TypeScript", "PostgreSQL", "Prisma 7", "Tailwind CSS"],
-    image: withBasePath("/projects/finance-controller.png"),
-    glow: "linear-gradient(135deg, rgba(16,185,129,0.92), rgba(20,184,166,0.88))",
-    frameClassName:
-      "rounded-[2rem] border border-emerald-100 bg-[#F7FFFC]",
-    imageClassName: "object-contain object-center",
-    imageInsetClassName: "inset-3 md:inset-4",
-    repositoryUrl: "https://github.com/Senavictors/Finance-Controller",
-  },
-  {
-    eyebrow: "Eficiência operacional",
-    title: "Automação de Processos",
-    description:
-      "Automação de rotinas operacionais com processamento assíncrono, filas e redistribuição de tarefas para reduzir trabalho manual em fluxos críticos. O resultado foi mais velocidade de execução com menos dependência de ações repetitivas do time.",
-    highlights: [
-      "Filas assíncronas",
-      "Menos tarefas manuais",
-      "Redis em operação",
-    ],
-    stack: ["Laravel", "Queues", "Redis"],
-    image: withBasePath("/projects/automacao-processos.svg"),
-    glow: "linear-gradient(135deg, rgba(34,197,94,0.95), rgba(16,185,129,0.9))",
-    frameClassName:
-      "rounded-[1.5rem] border-4 border-emerald-500 bg-[#07111f]",
   },
 ];
 

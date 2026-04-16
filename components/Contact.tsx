@@ -42,21 +42,21 @@ export default function Contact({
               Enviar Email
             </a>
             <a
-              className="inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-6 py-4 text-xs font-medium uppercase tracking-widest text-white transition-all hover:border-white/30 hover:bg-white/10"
+              className="button-dark inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-6 py-4 text-xs font-medium uppercase tracking-widest text-white transition-all hover:border-white/30 hover:bg-white/10"
               href={github}
               rel="noreferrer"
               target="_blank"
             >
-              <GithubIcon className="h-4 w-4" />
+              <GithubIcon className="h-4 w-4 text-white" />
               GitHub
             </a>
             <a
-              className="inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-6 py-4 text-xs font-medium uppercase tracking-widest text-white transition-all hover:border-white/30 hover:bg-white/10"
+              className="button-dark inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-6 py-4 text-xs font-medium uppercase tracking-widest text-white transition-all hover:border-white/30 hover:bg-white/10"
               href={linkedin}
               rel="noreferrer"
               target="_blank"
             >
-              <LinkedinIcon className="h-4 w-4" />
+              <LinkedinIcon className="h-4 w-4 text-white" />
               LinkedIn
             </a>
           </div>

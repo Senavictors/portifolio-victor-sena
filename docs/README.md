@@ -61,7 +61,6 @@ docs/
   projects/
     watch-crm.md
     finance-controller.md
-    automacao-de-processos.md
 ```
 
 ## Fluxo prático

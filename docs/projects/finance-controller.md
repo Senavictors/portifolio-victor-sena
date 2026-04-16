@@ -33,7 +33,7 @@ links:
   api_docs: ""
   related: ""
 assets:
-  cover: /projects/finance-controller.png
+  cover: /projects/finance-controller/dashboard.png
   screenshots: []
 ---
 
@@ -184,7 +184,7 @@ abrangência funcional e pela consistência da solução entregue:
 
 ## Assets e referências
 
-- imagem principal do portfólio em `public/projects/finance-controller.png`
+- imagem principal do portfólio em `public/projects/finance-controller/dashboard.png`
 - preview no repositório com telas de dashboard, transações, categorias, contas e recorrências
 - pipeline de CI configurado via GitHub Actions
 - repositório público: `https://github.com/Senavictors/Finance-Controller`
