@@ -1,0 +1,47 @@
+<svg width="1440" height="1080" viewBox="0 0 1440 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sidekick-bg" x1="132" y1="92" x2="1300" y2="996" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111318" />
+      <stop offset="1" stop-color="#08090C" />
+    </linearGradient>
+    <linearGradient id="sidekick-panel" x1="252" y1="216" x2="1084" y2="792" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#241B3C" />
+      <stop offset="1" stop-color="#140F24" />
+    </linearGradient>
+    <linearGradient id="sidekick-accent" x1="1002" y1="250" x2="1138" y2="686" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B" />
+      <stop offset="1" stop-color="#B45309" />
+    </linearGradient>
+    <filter id="sidekick-blur" x="0" y="0" width="1440" height="1080" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+  </defs>
+  <rect width="1440" height="1080" rx="72" fill="url(#sidekick-bg)" />
+  <g filter="url(#sidekick-blur)" opacity="0.35">
+    <circle cx="278" cy="242" r="140" fill="#7C3AED" />
+    <circle cx="1168" cy="864" r="164" fill="#F59E0B" />
+  </g>
+  <rect x="112" y="124" width="1216" height="832" rx="48" fill="#16181F" fill-opacity="0.9" stroke="white" stroke-opacity="0.08" stroke-width="2" />
+  <text x="176" y="212" fill="#A78BFA" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8">SIDEKICK AI</text>
+  <text x="176" y="256" fill="#F5F3FF" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700">Leitor local-first de HQs</text>
+  <text x="176" y="304" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="26">Biblioteca, busca e assistente de IA sem sair do seu computador.</text>
+
+  <rect x="176" y="372" width="392" height="488" rx="32" fill="url(#sidekick-panel)" stroke="white" stroke-opacity="0.08" />
+  <rect x="216" y="412" width="312" height="408" rx="20" fill="#0D0A18" stroke="#7C3AED" stroke-opacity="0.35" />
+  <text x="240" y="452" fill="#C4B5FD" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">LEITOR</text>
+
+  <rect x="604" y="372" width="632" height="228" rx="28" fill="#15121F" stroke="white" stroke-opacity="0.08" />
+  <text x="640" y="414" fill="#93A7CA" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">ASSISTENTE (BYOK)</text>
+  <rect x="640" y="440" width="560" height="24" rx="12" fill="#241F33" />
+  <rect x="640" y="480" width="420" height="24" rx="12" fill="#241F33" />
+  <rect x="640" y="520" width="480" height="24" rx="12" fill="url(#sidekick-accent)" opacity="0.5" />
+
+  <rect x="604" y="632" width="632" height="228" rx="28" fill="#15121F" stroke="white" stroke-opacity="0.08" />
+  <text x="640" y="674" fill="#93A7CA" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">SEM SPOILER · LOCAL-FIRST</text>
+  <text x="640" y="720" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Sem conta</text>
+  <text x="640" y="756" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Sem backend</text>
+  <text x="640" y="792" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Sem imagem enviada</text>
+
+  <text x="220" y="932" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="4">SCREENSHOTS EM BREVE</text>
+  <text x="220" y="972" fill="#8B90A0" font-family="Inter, Arial, sans-serif" font-size="22">Fase 0 concluída — telas reais entram quando o leitor e a busca estiverem prontos.</text>
+</svg>

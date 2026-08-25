@@ -1,0 +1,45 @@
+<svg width="1440" height="1080" viewBox="0 0 1440 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cactos-bg" x1="132" y1="92" x2="1300" y2="996" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5EEDD" />
+      <stop offset="1" stop-color="#EFE3CB" />
+    </linearGradient>
+    <linearGradient id="cactos-panel" x1="252" y1="216" x2="1084" y2="792" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F5233" />
+      <stop offset="1" stop-color="#1F3A24" />
+    </linearGradient>
+    <linearGradient id="cactos-accent" x1="1002" y1="250" x2="1138" y2="686" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C97C4B" />
+      <stop offset="1" stop-color="#9A5A32" />
+    </linearGradient>
+    <filter id="cactos-blur" x="0" y="0" width="1440" height="1080" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+  </defs>
+  <rect width="1440" height="1080" rx="72" fill="url(#cactos-bg)" />
+  <g filter="url(#cactos-blur)" opacity="0.3">
+    <circle cx="278" cy="242" r="140" fill="#2F5233" />
+    <circle cx="1168" cy="864" r="164" fill="#C97C4B" />
+  </g>
+  <rect x="112" y="124" width="1216" height="832" rx="48" fill="#FBF6EA" fill-opacity="0.92" stroke="#2F5233" stroke-opacity="0.12" stroke-width="2" />
+  <text x="176" y="212" fill="#6B7A4F" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="8">CACTOS GOURMET CRM</text>
+  <text x="176" y="264" fill="#2A2118" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">Gestão de marmitas gourmet</text>
+  <text x="176" y="310" fill="#7A6E56" font-family="Arial, sans-serif" font-size="26">Catálogo, pedidos, estoque, produção e financeiro em um só lugar.</text>
+
+  <rect x="176" y="372" width="252" height="148" rx="28" fill="url(#cactos-panel)" />
+  <rect x="450" y="372" width="252" height="148" rx="28" fill="#FFFFFF" stroke="#2F5233" stroke-opacity="0.15" />
+  <rect x="724" y="372" width="252" height="148" rx="28" fill="#FFFFFF" stroke="#2F5233" stroke-opacity="0.15" />
+  <text x="212" y="424" fill="#D7E4D0" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">IDENTIDADE</text>
+  <text x="212" y="482" fill="#F8FAF5" font-family="Arial, sans-serif" font-size="42" font-weight="700">Fundação</text>
+  <text x="486" y="424" fill="#6B7A4F" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">FINANCEIRO</text>
+  <text x="486" y="482" fill="#2A2118" font-family="Arial, sans-serif" font-size="42" font-weight="700">DECIMAL</text>
+  <text x="760" y="424" fill="#6B7A4F" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">ESTOQUE</text>
+  <text x="760" y="482" fill="#2A2118" font-family="Arial, sans-serif" font-size="42" font-weight="700">Auditável</text>
+
+  <rect x="176" y="560" width="800" height="300" rx="32" fill="#FFFFFF" stroke="#2F5233" stroke-opacity="0.12" />
+  <rect x="1020" y="372" width="216" height="488" rx="36" fill="url(#cactos-accent)" opacity="0.16" />
+  <rect x="1020" y="372" width="216" height="488" rx="36" fill="none" stroke="#C97C4B" stroke-opacity="0.4" stroke-width="2" />
+
+  <text x="220" y="700" fill="#A79C82" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="4">SCREENSHOTS EM BREVE</text>
+  <text x="220" y="742" fill="#B9AF97" font-family="Arial, sans-serif" font-size="22">MVP em construção — telas reais entram assim que o catálogo e os pedidos estiverem prontos.</text>
+</svg>

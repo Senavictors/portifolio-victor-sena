@@ -26,9 +26,9 @@ export default function About({ areas }: AboutProps) {
           </h2>
           <p className="mb-16 max-w-4xl text-lg font-normal leading-relaxed text-gray-400 md:text-2xl">
             Sou formado em Análise e Desenvolvimento de Sistemas e atuo na
-            evolução de uma plataforma CRM interna na Allcom Telecom,
-            desenvolvendo módulos de fluxo comercial, aprovações, contratos,
-            pedidos e relatórios. Trabalho da interface administrativa e das
+            Essencis Labs no desenvolvimento de sistemas internos de gestão
+            laboratorial e de dados técnicos, multi-tenant, em Clean
+            Architecture. Trabalho da interface administrativa e das
             integrações até regras de negócio, permissões, persistência e
             rotinas assíncronas, buscando produtividade, rastreabilidade,
             segurança e código sustentável.
