@@ -94,6 +94,52 @@ const financeControllerGallery: ProjectGalleryItem[] = [
 
 export const projects: Project[] = [
   {
+    eyebrow: "CRM/ERP para food service",
+    title: "Cactos Gourmet CRM",
+    description:
+      "Sistema de gestão para a operação de uma loja de marmitas congeladas artesanais, unificando pedidos, clientes, estoque, produção, compras e financeiro em uma única ferramenta administrativa — no lugar de controle manual em planilha. Projeto pessoal em desenvolvimento (MVP em construção).",
+    detailDescription:
+      "O Cactos Gourmet CRM organiza a operação de food service de uma loja de marmitas congeladas artesanais, cobrindo catálogo, pedidos, clientes, estoque, produção, compras e financeiro. O frontend em Next.js consome uma API Laravel estruturada como monólito modular por domínio, com autenticação via Sanctum (cookie HTTP-only + CSRF, sem token em localStorage) e regras de domínio explícitas — como dinheiro sempre em DECIMAL (nunca float) e estoque sem movimentação sem registro auditável. O projeto também define um design system próprio, com paleta e tipografia da marca documentadas para manter consistência entre telas.",
+    highlights: [
+      "Fundação de identidade e permissões",
+      "Financeiro com precisão decimal",
+      "Estoque com trilha auditável",
+    ],
+    metrics: [
+      "Épico de Fundação (usuários, papéis, permissões e auditoria) implementado",
+      "Design system próprio documentado (paleta, tipografia e regras de uso)",
+    ],
+    stack: ["Next.js 16", "React 19", "Laravel 12", "PHP 8.4", "MySQL", "Docker"],
+    image: withBasePath("/projects/cactos-gourmet-crm/cover.svg"),
+    glow: "linear-gradient(135deg, rgba(47,82,51,0.9), rgba(201,124,75,0.8))",
+    frameClassName: "rounded-[2rem] border border-amber-100 bg-[#FBF6EA]",
+    imageClassName: "object-contain object-center",
+    imageInsetClassName: "inset-3 md:inset-4",
+  },
+  {
+    eyebrow: "Leitor desktop local-first com IA",
+    title: "Sidekick AI",
+    description:
+      "Aplicativo desktop local-first para organizar, ler e explorar uma biblioteca pessoal de quadrinhos (CBR, CBZ, PDF), com catálogo, busca híbrida e um assistente de IA contextual com proteção ativa contra spoilers. Toda a biblioteca fica no computador do usuário, sem backend e sem conta. Projeto pessoal em fase inicial de desenvolvimento.",
+    detailDescription:
+      "O Sidekick AI combina leitor, catálogo e busca com um assistente de IA sobre uma biblioteca pessoal de quadrinhos, priorizando privacidade e ausência de spoiler por construção. É local-first: biblioteca, progresso de leitura, OCR e índices ficam no computador do usuário, sem sincronização em nuvem. A chave de API da OpenAI (BYOK) fica no cofre do sistema operacional e apenas a pergunta atual e o trecho de texto selecionado saem do dispositivo — nenhuma imagem de página é enviada. O limite de leitura do usuário restringe o que a busca pode recuperar antes da consulta, e não por instrução de prompt. A interface (React) nunca acessa filesystem, banco ou segredo diretamente: toda capacidade privilegiada passa por um comando Tauri tipado, validado por schemas Zod compartilhados e um teste de contrato Rust↔TypeScript.",
+    highlights: [
+      "100% local-first, sem conta",
+      "Busca sem spoiler por arquitetura",
+      "Fronteira IPC tipada Rust ↔ TypeScript",
+    ],
+    metrics: [
+      "Fase 0 concluída: workspace, IPC tipada e banco SQLite validados",
+      "Roadmap de 20 tasks estruturado em 4 milestones",
+    ],
+    stack: ["Tauri 2", "Rust", "React 19", "TypeScript", "Vite", "SQLite"],
+    image: withBasePath("/projects/sidekick-ai/cover.svg"),
+    glow: "linear-gradient(135deg, rgba(124,58,237,0.85), rgba(245,158,11,0.75))",
+    frameClassName: "rounded-[2rem] border border-white/10 bg-[#16181F]",
+    imageClassName: "object-contain object-center",
+    imageInsetClassName: "inset-3 md:inset-4",
+  },
+  {
     eyebrow: "CRM para relojoaria",
     title: "Watch CRM",
     description:

@@ -1,6 +1,7 @@
 import About, { type FocusArea } from "@/components/About";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
+import Methodology, { type MethodologyPoint } from "@/components/Methodology";
 import Projects from "@/components/Projects";
 import Stack, { type StackGroup } from "@/components/Stack";
 import { projects } from "@/data/projects";
@@ -18,9 +19,9 @@ const contact = {
 
 const focusAreas: FocusArea[] = [
   {
-    title: "CRM & Operação",
+    title: "Sistemas Internos & LIMS",
     description:
-      "Atuo na evolução de uma plataforma CRM interna com foco em fluxos comerciais, aprovações, contratos, pedidos e estabilidade operacional.",
+      "Atuo no desenvolvimento de sistemas internos de gestão, incluindo plataformas de laboratório (LIMS) e de dados técnicos, com foco em fluxos operacionais, auditoria e arquitetura multi-tenant.",
   },
   {
     title: "APIs & Automações",
@@ -31,6 +32,34 @@ const focusAreas: FocusArea[] = [
     title: "Arquitetura & Qualidade",
     description:
       "Trabalho do frontend ao backend com autenticação, permissões, persistência e responsabilidades bem definidas para manter o produto claro, seguro e evolutivo.",
+  },
+];
+
+const methodologyPoints: MethodologyPoint[] = [
+  {
+    title: "Agentes especializados por domínio",
+    description:
+      "Cada projeto define papéis de agente de IA com escopo próprio (frontend, backend, infraestrutura, regras de negócio críticas), alguns com poder de veto sobre mudanças que quebrem uma invariante — segurança, integridade financeira ou privacidade.",
+  },
+  {
+    title: "Hub de continuidade entre sessões",
+    description:
+      "Uma pasta viva de contexto, tasks e decisões arquiteturais em estilo ADR, com handoffs escritos para retomar o trabalho em outra sessão ou ferramenta sem perder histórico.",
+  },
+  {
+    title: "Documentação como fonte de verdade",
+    description:
+      "Regras de negócio e decisões técnicas ficam registradas fora do código e são lidas antes de qualquer alteração — o código nunca é a única fonte da regra.",
+  },
+  {
+    title: "Multi-ferramenta por design",
+    description:
+      "Os mesmos papéis de agente são replicados para diferentes ferramentas de IA (Claude Code, Codex, Cursor), garantindo que o processo não dependa de uma ferramenta específica.",
+  },
+  {
+    title: "Critérios de conclusão formais",
+    description:
+      "Cada entrega segue um Definition of Done explícito: build e testes rodados, decisão registrada quando necessário, riscos declarados e handoff preenchido.",
   },
 ];
 
@@ -76,6 +105,7 @@ export default function Home() {
         />
         <About areas={focusAreas} />
         <Projects projects={projects} />
+        <Methodology points={methodologyPoints} />
         <Stack groups={stackGroups} />
         <Contact
           email={contact.email}

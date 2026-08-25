@@ -17,6 +17,7 @@ type HeroProps = {
 const navItems = [
   { href: "#sobre", label: "Sobre" },
   { href: "#projetos", label: "Projetos" },
+  { href: "#metodologia", label: "Metodologia" },
   { href: "#stack", label: "Stack" },
   { href: "#contato", label: "Contato" },
 ];
@@ -84,7 +85,7 @@ export default function Hero({
       >
         <div className="relative z-10 flex flex-col justify-center px-8 pb-12 pt-4 lg:px-12 xl:px-20">
           <p className="mb-6 text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gray-400">
-            Allcom Telecom • CRM interno • APIs • Operação
+            Essencis Labs • Sistemas internos • APIs • Dados
           </p>
 
           <div className="relative mb-6">
@@ -102,10 +103,10 @@ export default function Hero({
 
           <div className="mt-8 max-w-xl">
             <h2 className="mb-4 text-xl font-medium leading-snug tracking-tight text-gray-900">
-              Na <span className="text-blue-600">Allcom Telecom</span>, atuo na
-              evolução de uma plataforma CRM interna, desenvolvendo interfaces
-              administrativas, APIs, integrações e automações para fluxos
-              comerciais e operacionais.
+              Na <span className="text-blue-600">Essencis Labs</span>, atuo no
+              desenvolvimento de sistemas internos de gestão laboratorial e de
+              dados técnicos, desenvolvendo interfaces administrativas, APIs,
+              integrações e arquitetura de dados multi-tenant.
             </h2>
             <p className="mb-8 text-base font-normal leading-relaxed text-gray-500">
               Sou formado em Análise e Desenvolvimento de Sistemas e atuo de
